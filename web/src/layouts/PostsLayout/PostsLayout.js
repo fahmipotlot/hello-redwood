@@ -7,6 +7,11 @@ const PostsLayout = (props) => {
       <Flash timeout={1000} />
       <header className="rw-header">
         <h1 className="rw-heading rw-heading-primary">
+          <Link to={routes.home()} className="rw-link">
+            Home
+          </Link>
+        </h1>
+        <h1 className="rw-heading rw-heading-primary">
           <Link to={routes.posts()} className="rw-link">
             Posts
           </Link>
